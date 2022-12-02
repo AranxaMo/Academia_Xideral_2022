@@ -6,10 +6,12 @@ public class Buceo extends Actividad{
 	public Buceo(int horas, int personas) {
 		super(horas, personas);
 	}
+	
 
 	@Override
 	int calcularPrecio() {
 		return (costoHora*horas)*personas;
 	}
-
+	
+	
 }
